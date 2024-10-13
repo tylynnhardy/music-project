@@ -1,12 +1,73 @@
-h1 {
+body {
   font-family: "Lato";
-  font-weight: 400;
-  font-size: 70px;
-  font-style: normal;
-  line-height: 144px;
+  background: #f2f9f1;
 }
-footer {
-  font-family: "Lato";
-  font-weight: 400;
-  font-style: normal;
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("../images/instruments.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+   font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3 {
+   font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  padding-top: 60px 0;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 16px 32px;
+  display: inline-block;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  footer {
+    font-size: 13px;
+  }
 }
