@@ -9,6 +9,8 @@ body {
 .grid {
   display: grid;
   grid-gap: 64px;
+}
+.grid-3-columns-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .grid-2-columns {
@@ -78,7 +80,6 @@ header h3 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
-  padding-top: 60px 0;
 }
 header a {
   font-weight: 700;
@@ -132,9 +133,8 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: 272044;
+  color: #272044;
   opacity: 0.7;
-  text-align: start;
 }
 section {
   max-width: 100%;
@@ -159,17 +159,12 @@ footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  text-align: start;
 }
 footer p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   opacity: 0.7;
-  text-align: start;
-}
-footer ul {
-  text-align: start;
 }
 footer li {
   list-style: none;
@@ -225,5 +220,8 @@ footer a {
   main h3 {
     font-size: 21px;
     padding-left: 10px;
+  }
+  section {
+    padding: 30px;
   }
 }
