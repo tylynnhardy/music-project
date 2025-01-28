@@ -47,6 +47,9 @@ body {
   width: 100%;
   aspect-ratio: 1/1;
 }
+.instagram-embed {
+  background-color: white;
+}
 .btn {
   display: block;
   color: white;
@@ -151,6 +154,10 @@ section {
 }
 section.secondary {
   background-color: #eef2e2;
+}
+section h2 {
+  color: #272044;
+  opacity: 0.3;
 }
 footer {
   background-image: linear-gradient(
