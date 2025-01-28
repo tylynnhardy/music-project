@@ -40,6 +40,13 @@ body {
 .card-body {
   padding: 30px;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .btn {
   display: block;
   color: white;
@@ -140,6 +147,7 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+  
 }
 section.secondary {
   background-color: #eef2e2;
@@ -223,5 +231,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
