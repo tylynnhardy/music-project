@@ -65,7 +65,7 @@ body {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-    url("images/instruments.jpg");
+    url("images/coverr.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -150,7 +150,6 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
-  
 }
 section.secondary {
   background-color: #eef2e2;
@@ -164,7 +163,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("images/vinyls.jpg");
+    url("images/footer.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
